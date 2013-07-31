@@ -17,6 +17,25 @@ Tested In: Chrome, Firefox 3+, Safari 3+, Internet Explorer 7+.
 
 The simpletube method takes a key/value object.
 
+Format:
+
+   ```
+   $('selector').simpletube({key:value, key:value, key:value});
+   ```
+
+Example:
+
+   ```
+   $('#videoholder').simpletube({displaytype: 'single', feedid: 'xOfe1nwSCZU'});
+   ```
+   
+Example:
+
+   ```
+   $('#videoholder').simpletube({displaytype: 'playlist',
+   feedid: '7A970084B73399A8', activeclass: 'selectedclip'});
+   ```
+
 ### Upcoming Features
 
 * Add templating system to allow for greater control over the generated HTML
