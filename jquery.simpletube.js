@@ -1,7 +1,7 @@
 (function($) {
 	$.fn.simpletube = function(options) {
 		var settings = $.extend({
-			'feedid': 'LieNielsenToolworks', // feed url, only required parameters
+			'feedid': 'sweetbillypilgrim', // feed url, only required parameters
 			'startindex': 1,
 			'maxresults': 10, // number of results to show, 0 for no limit
 			'defaultvideo': 'none', // default video to display initially, uses the YouTube video id parameter
