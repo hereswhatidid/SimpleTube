@@ -19,22 +19,25 @@ The simpletube method takes a key/value object.
 
 Format:
 
-   ```
-   $('selector').simpletube({key:value, key:value, key:value});
-   ```
+```
+$('selector').simpletube({key:value, key:value, key:value});
+```
 
 Example:
 
-   ```
-   $('#videoholder').simpletube({displaytype: 'single', feedid: 'xOfe1nwSCZU'});
-   ```
+```
+$('#videoholder').simpletube({displaytype: 'single', feedid: 'xOfe1nwSCZU'});
+```
    
 Example:
 
-   ```
-   $('#videoholder').simpletube({displaytype: 'playlist',
-   feedid: '7A970084B73399A8', activeclass: 'selectedclip'});
-   ```
+```
+$('#videoholder').simpletube( {
+   displaytype: 'playlist',
+   feedid: '7A970084B73399A8',
+   activeclass: 'selectedclip'
+} );
+```
 
 ### Upcoming Features
 
